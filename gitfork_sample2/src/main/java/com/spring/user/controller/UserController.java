@@ -31,6 +31,7 @@ public class UserController {
 	
 	@GetMapping(value = "yoojin")
 	public String yoojin() {
+		System.out.println("유진수정0706");
 		return "/user/yoojin";
 	}
 	
