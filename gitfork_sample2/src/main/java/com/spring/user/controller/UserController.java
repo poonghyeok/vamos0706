@@ -21,6 +21,12 @@ public class UserController {
 		
 	}
 	
+	@GetMapping(value = "/userList122")
+	public String userList122() {
+		return "/user/userList122";
+		
+	}
+	
 	@GetMapping(value = "/userList33")
 	public String userList33() {
 		return "/user/userList33";
