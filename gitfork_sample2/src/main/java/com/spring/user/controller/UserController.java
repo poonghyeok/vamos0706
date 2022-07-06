@@ -54,7 +54,7 @@ public class UserController {
 	//湲곗쭊 : �떆�옉 ########################################
 	@GetMapping(value = "/kijin")
 	public String kijin() {
-		
+		System.out.println();
 		return "/user/kijin";
 	}
 	
