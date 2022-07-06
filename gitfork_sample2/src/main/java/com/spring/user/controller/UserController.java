@@ -10,7 +10,7 @@ import com.spring.user.service.UserService;
 
 
 @RequestMapping(value = "/user")
-@Controller
+
 public class UserController {
 
 	//怨듯넻 : �떆�옉 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -18,6 +18,18 @@ public class UserController {
 	@GetMapping(value = "/userList")
 	public String userList() {
 		return "/user/userList";
+		
+	}
+	
+	@GetMapping(value = "/userList122")
+	public String userList122() {
+		return "/user/userList122";
+		
+	}
+	
+	@GetMapping(value = "/userList33")
+	public String userList33() {
+		return "/user/userList33";
 	}
 	//怨듯넻 : �떆�옉 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -32,6 +44,7 @@ public class UserController {
 	
 	@GetMapping(value = "yoojin")
 	public String yoojin() {
+		System.out.println("유진수정0706");
 		return "/user/yoojin";
 	}
 	
