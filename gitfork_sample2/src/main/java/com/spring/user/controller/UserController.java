@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.spring.user.service.UserService;
 
+
 @RequestMapping(value = "/user")
 
 public class UserController {
