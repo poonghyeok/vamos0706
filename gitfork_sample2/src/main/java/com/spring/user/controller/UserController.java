@@ -55,6 +55,7 @@ public class UserController {
 	@GetMapping(value = "/kijin")
 	public String kijin() {
 		System.out.println();
+		System.out.println("이게  merge?");
 		return "/user/kijin";
 	}
 	

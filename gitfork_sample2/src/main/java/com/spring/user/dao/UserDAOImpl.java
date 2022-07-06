@@ -36,6 +36,8 @@ public class UserDAOImpl implements UserDAO {
 	public void getKijin() {
 		System.out.println();
 		
+		System.out.println("kijin kijin");
+		
 	}
 	
 	//기진 : 끝 ########################################
