@@ -10,7 +10,6 @@ import com.spring.user.service.UserService;
 
 @Controller
 @RequestMapping(value = "/user")
-@Controller
 public class UserController {
 
 	//공통 : 시작 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
