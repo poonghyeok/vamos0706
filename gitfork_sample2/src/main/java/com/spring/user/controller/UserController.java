@@ -8,41 +8,55 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.spring.user.service.UserService;
 
-@Controller
+
 @RequestMapping(value = "/user")
+
 public class UserController {
 
-	//공통 : 시작 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	//怨듯넻 : �떆�옉 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 	@GetMapping(value = "/userList")
 	public String userList() {
 		return "/user/userList";
+		
 	}
-	//공통 : 시작 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	
+	@GetMapping(value = "/userList122")
+	public String userList122() {
+		return "/user/userList122";
+		
+	}
+	
+	@GetMapping(value = "/userList33")
+	public String userList33() {
+		return "/user/userList33";
+	}
+	//怨듯넻 : �떆�옉 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-	//연수 : 시작 ==============================================
+	//�뿰�닔 : �떆�옉 ==============================================
 	@GetMapping(value="/yeonsoo")
 	public String yeonsoo() {
 		return "/user/yeonsoo";
 	}
-	//연수 : 끝 ==============================================
+	//�뿰�닔 : �걹 ==============================================
 
-	//유진 : 시작 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+	//�쑀吏� : �떆�옉 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 	
 	@GetMapping(value = "yoojin")
 	public String yoojin() {
+		System.out.println("유진수정0706");
 		return "/user/yoojin";
 	}
 	
-	//유진 : 끝 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+	//�쑀吏� : �걹 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 	
 	
-	//기진 : 시작 ########################################
+	//湲곗쭊 : �떆�옉 ########################################
 	@GetMapping(value = "/kijin")
 	public String kijin() {
 		System.out.println();
 		return "/user/kijin";
 	}
 	
-	//기진 : 끝 ########################################
+	//湲곗쭊 : �걹 ########################################
 }
