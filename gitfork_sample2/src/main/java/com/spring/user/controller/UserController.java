@@ -15,19 +15,12 @@ public class UserController {
 
 	//怨듯넻 : �떆�옉 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-	@GetMapping(value = "/userList")
-	public String userList() {
-		return "/user/userList";
-		
-	}
-	
-	@GetMapping(value = "/userList122")
+
+	@GetMapping(value = "/usedddrList122")
 	public String userList122() {
-		return "/user/userList122";
-		
-	}
-	
-	@GetMapping(value = "/userList33")
+		return "/user/usedddrList122";
+		}
+		@GetMapping(value = "/userList33")
 	public String userList33() {
 		return "/user/userList33";
 	}
@@ -36,6 +29,7 @@ public class UserController {
 	//�뿰�닔 : �떆�옉 ==============================================
 	@GetMapping(value="/yeonsoo")
 	public String yeonsoo() {
+		System.out.println("연수님바보멍뚱이메롱");
 		return "/user/yeonsoo";
 	}
 	//�뿰�닔 : �걹 ==============================================
@@ -44,7 +38,9 @@ public class UserController {
 	
 	@GetMapping(value = "yoojin")
 	public String yoojin() {
-		System.out.println("유진수정0706");
+
+		System.out.println("유진수정0706또또수정이야수정이야!!!!!!!!!!!!!!!");
+
 		return "/user/yoojin";
 	}
 	
@@ -53,10 +49,15 @@ public class UserController {
 	
 	//湲곗쭊 : �떆�옉 ########################################
 	@GetMapping(value = "/kijin")
-	public String kijin() {
+	public String kijin222() {
 		System.out.println();
-		System.out.println("이게  merge?");
+
+		System.out.println("다녀감");
+
 		return "/user/kijin";
+
+		return "/user/kijifdfn";
+
 	}
 	
 	//湲곗쭊 : �걹 ########################################
