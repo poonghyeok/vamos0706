@@ -36,6 +36,7 @@ public class UserController {
 	//�뿰�닔 : �떆�옉 ==============================================
 	@GetMapping(value="/yeonsoo")
 	public String yeonsoo() {
+		System.out.println("연수님바보멍뚱이메롱");
 		return "/user/yeonsoo";
 	}
 	//�뿰�닔 : �걹 ==============================================
@@ -44,7 +45,7 @@ public class UserController {
 	
 	@GetMapping(value = "yoojin")
 	public String yoojin() {
-		System.out.println("유진수정0706");
+		System.out.println("유진수정0706또또수정이야수정이야!!!!!!!!!!!!!!!");
 		return "/user/yoojin";
 	}
 	
@@ -55,6 +56,7 @@ public class UserController {
 	@GetMapping(value = "/kijin")
 	public String kijin() {
 		System.out.println();
+		System.out.println("다녀감");
 		return "/user/kijin";
 	}
 	
