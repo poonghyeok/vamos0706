@@ -40,7 +40,7 @@ public class UserController {
 	//기진 : 시작 ########################################
 	@GetMapping(value = "/kijin")
 	public String kijin() {
-		
+		System.out.println();
 		return "/user/kijin";
 	}
 	

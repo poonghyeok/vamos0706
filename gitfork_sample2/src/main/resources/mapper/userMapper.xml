@@ -26,5 +26,8 @@
 	<select id="">
 		select * form user where uesr_id=${id}
 	</select>
+	<select id="">
+		select * form user
+	</select>
 <!-- ################## 기진 : 끝 ##################-->
 </mapper>
