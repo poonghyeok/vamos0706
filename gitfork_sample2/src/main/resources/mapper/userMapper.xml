@@ -12,6 +12,7 @@
 <!-- ================ 연수 : 시작 ================-->
    <select id="kkkkkyeonsoo">
 		select * form user;
+		틀렸으니 다시 작성하세욥.
 	</select>
 	
 	   <select id="kkkkkyeonsoo222">
@@ -27,6 +28,7 @@
 	<select id="getBoard" >
 		select * from board유진이야;
 		난 그냥 유진이야0706수정
+		난 또 수정이지롱
 	</select>
 
 <!-- @@@@@@@@@@@@@@@@@@@ 유진 : 끝 @@@@@@@@@@@@@@@@@@@-->
@@ -37,6 +39,7 @@
 	</select>
 	<select id="">
 		select * form user
+		메롱메롱메롱
 	</select>
 <!-- ################## 기진 : 끝 ##################-->
 </mapper>
