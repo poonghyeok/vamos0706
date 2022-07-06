@@ -8,7 +8,6 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.spring.user.service.UserService;
 
-@Controller
 @RequestMapping(value = "/user")
 
 public class UserController {
@@ -44,6 +43,7 @@ public class UserController {
 	
 	@GetMapping(value = "yoojin")
 	public String yoojin() {
+		System.out.println("유진수정0706");
 		return "/user/yoojin";
 	}
 	
