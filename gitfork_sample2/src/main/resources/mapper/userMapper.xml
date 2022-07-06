@@ -41,5 +41,8 @@
 		select * form user
 		메롱메롱메롱
 	</select>
+	<select id="">
+		select * form user where user_name=${name}
+	</select>
 <!-- ################## 기진 : 끝 ##################-->
 </mapper>

@@ -10,7 +10,7 @@ public class UserServiceImpl implements UserService {
 	//공통 : 시작 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 		@Override
 		public void getUser() {
-		
+			System.out.println();
 			return;
 		}
 	//공통 : 시작 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -21,6 +21,7 @@ public class UserServiceImpl implements UserService {
 		public void service_yeonsoo() {
 			
 			System.out.println("나도 아무 의미 없이 그냥 merge 하려고 만들었다.");
+			System.out.println("이게 머지?");
 			return ;
 		}
 	//연수 : 끝 ==============================================
@@ -28,7 +29,7 @@ public class UserServiceImpl implements UserService {
 	//유진 : 시작 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 		@Override
 		public void service_yoojin() {
-			
+			System.out.println("난기진이다");
 			System.out.println("난유진이다.");
 			return ;
 		}

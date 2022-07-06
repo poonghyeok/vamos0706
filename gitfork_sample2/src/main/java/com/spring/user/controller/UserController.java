@@ -53,6 +53,7 @@ public class UserController {
 		System.out.println();
 
 		System.out.println("다녀감");
+
 		return "/user/kijin";
 
 		return "/user/kijifdfn";
